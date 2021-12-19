@@ -1,0 +1,46 @@
+.header-page1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-page2{
+    margin-top: 20px;
+    color: #808080;
+}
+.header-page3{
+    margin-left: 5px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-form1 {
+    width: 300px;
+    display: block;
+    float: left;
+    position: relative;
+    border-radius: 7px;
+}
+
+
+  .btn-search {
+      
+    position: absolute;
+    right: 15px;
+    top: 8px;
+    border: 0;
+    background: transparent;
+    color: #808080;
+    padding: 0;
+  }
+
+  #icontable{
+    color: #20BC9D;
+  }
+
+  #button-add{
+      color: #FFFF;
+  background-color: #20BC9D;
+  }
+ 

@@ -1,0 +1,72 @@
+[
+  {
+    "groupname": " ",
+    "id": 1,
+    "uuid": "433b8a76-88c5-11ea-bc55-0242ac1564787485730003",
+    "children": [
+      {
+        "uuid": "433b8a76-88c5-11ea-bc55-0242ac130003",
+        "name": "แดชบอร์ด ",
+        "icon": "fa fa-home",
+        "to": "/dashboard",
+        "children": false
+      }
+    ]
+  },
+  {
+    "groupname": "เมนู",
+    "id": 2,
+    "uuid": "433b8a76-88c5-11ea-bc55-024DFSAD2ac1564787485730003",
+    "children": [
+      {
+        "uuid": "433b97d2-88c5-11ea-bc55-0242ac130003",
+        "name": "จัดการคำสั่งซื้อ",
+        "icon": "fad fa-sticky-note",
+        "to": "/manage-order",
+        "children": false
+      },
+      {
+        "uuid": "433b993a-88c5-11ea-bc55-0242ac130003",
+        "name": "จัดการร้านค้า",
+        "icon": "fad fa-store",
+        "to": "/manage-market",
+        "children": false
+      },
+      {
+        "uuid": "433b9a0c-88c5-11ea-bc55-0242ac130003",
+        "name": "จัดการพนักงานส่งสินค้า",
+        "icon": "far fa-motorcycle",
+        "to": "/manage-lineman",
+        "children": false
+      }
+    ]
+  },
+  {
+    "groupname": "อื่นๆ",
+    "id": 2,
+    "uuid": "433b8a76-8845545c55-0242ac1564787485730003",
+    "children": [
+      {
+        "uuid": "433ba420-88c5-11ea-bc55-0242ac130003",
+        "name": "จัดการประเภทสินค้า",
+        "icon": "fad fa-store-alt",
+        "to": "/manage-product",
+        "children": false
+      },
+      {
+        "uuid": "433b9f48-88c5-11ea-bc55-0242ac130003",
+        "name": "จัดการแบนเนอร์",
+        "icon": "fad fa-bullhorn",
+        "to": "/order-banner",
+        "children": false
+      },
+      {
+        "uuid": "433b9f48-88c5-11ea-bc55-0242ac130003",
+        "name": "จัดการประเถทรถ",
+        "icon": "fad fa-bus",
+        "to": "/order-car",
+        "children": false
+      }
+    ]
+  }
+]

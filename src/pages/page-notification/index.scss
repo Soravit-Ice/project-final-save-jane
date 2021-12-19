@@ -1,0 +1,36 @@
+.card-body-main{
+    margin-top: 20px;
+}
+
+#h2-header{
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+.card-header-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-header-body p{
+    color: #95989A;
+}
+
+.icon-noti{
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+    background: #FFFF;
+    border-radius: 50%;
+    color: #20BC9E;
+   
+}
+
+.card-body-content i{
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0.5px 0.5px 7px #95989A;
+    text-align: center;
+}
+
+
+

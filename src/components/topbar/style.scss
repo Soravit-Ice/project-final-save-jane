@@ -1,0 +1,31 @@
+@media (max-width: 767px) {
+
+}
+
+li.avtar-dropdown{
+    ul{
+        li{
+            padding: 0.5rem 0;
+            a{
+                //margin: 1rem 0.5rem;
+            }
+        
+        }
+        &:last-child{
+            padding: 0.5rem 0 0.6rem;
+        }
+    }
+}
+
+
+#container{
+    background-color:  #20BC9D;
+}
+
+#search-for::placeholder{
+    color: #FFFF;
+}
+
+.admin-logo{
+height: 100px;
+}

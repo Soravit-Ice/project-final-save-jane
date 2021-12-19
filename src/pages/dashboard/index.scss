@@ -1,0 +1,112 @@
+
+#world-map-markers{
+    svg{
+        g{
+            g{
+                path{
+                    fill: #c9d6de;
+                }
+            }
+        }
+
+    }
+}
+
+
+
+#piechart{
+    justify-content: center !important;
+}
+
+.progress {height: 10px;}
+.progress-bar {
+    background-color: #6FCF97;
+}
+.bg-spec{
+    color: #333333;
+    background-color: #EBF9F6;
+}
+
+.containerorder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.containerorder img{
+    width: 220px;
+    height: 120px;
+    padding-right: 20px;
+}
+
+.headerdeatil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headerdeatil h4{
+    color: red;
+    font-size: 16px;
+}
+.headerdeatil h3{
+    font-size: 20px;
+    padding-right: 70px;
+}
+
+.text-deatil{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-deatil h4{
+    color: #E16C6C;
+}
+.orderdeatil{
+    display: flex;
+    flex-direction: column;
+}
+
+.orderdeatil h3{
+    font-size: 15px;
+}
+.status{
+    color: #3F9F00;
+}
+
+.location{
+    padding-right: 10px;
+}
+
+#location1{
+    color: #9FDD76;
+}
+
+#location2{
+    color: #E16C6C;
+}
+
+.card-color{
+    background-color: #6FCF97;
+}
+
+.card-color h3{
+    color: #FFFF;
+}
+.fluit-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.fluit-container img{
+    width: 100px;
+    height: 100px;
+}
+
+.fluit-deatil h3{
+    padding-top: 20px;
+    padding-bottom:  15px;
+}
+
