@@ -1,0 +1,47 @@
+.bthorderfail:active{
+    background-color: #C10000;
+}
+
+.bthorderfail:hover{
+    color: #FFFF;
+}
+
+.bthorderfail{
+    color: #FFFF;
+    background-color: #FF3A45;
+    border-radius: 5px;
+    border: 0;
+}
+
+
+.btnmodalsuccess{
+    color: #FFFF;
+    background-color: #20BC9E;
+    border-radius: 5px;
+    border: 0;
+}
+
+.btnmodalsuccess:hover{
+    color: #FFFF;
+    background-color: #6FCF97;
+}
+
+.btnmodalcancel{
+    color: #20BC9D;
+    background-color: #FFFF;
+    border-radius: 5px;
+    border-color: #20BC9D;
+}
+
+.btnmodalcancel:hover{
+    color: #20BC9D;
+}
+
+.modal-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+[type="radio"]{
+    border: 2px solid #20BC9D  ;
+}

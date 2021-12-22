@@ -106,6 +106,14 @@ import ManangeOrder from './pages/page-manageorder';
 import ManageMarket from './pages/page-managemarket';
 import ManageLineMan from './pages/page-managelineman';
 import PageNotification from './pages/page-notification';
+import DetailOrderSuccess from './pages/page-manageorder/detailordersuccess/detailordersuccess.jsx';
+import DetailOrderFail from './pages/page-manageorder/detailorderfail/detailorderfail.jsx';
+import PendingOrder from './pages/page-manageorder/pendingorder/pendingorder';
+import SuccessOrder from './pages/page-manageorder/successorder/successorder';
+import CancelOrder from './pages/page-manageorder/cancelorder/cancelorder';
+import ReadyMarket from './pages/page-manageorder/readymarket/readymarket';
+import ReadyProduct from './pages/page-manageorder/readyproduct/readyproduct';
+import OrderBuySuccess from './pages/page-manageorder/orderbuysuccess/orderbuysuccess';
 
 
 ReactDOM.render(
@@ -129,7 +137,15 @@ ReactDOM.render(
             <Route path={`/order-banner`} component={OrderBanner} />
             <Route path={`/manage-product`} component={ManageProduct} />
             <Route path={`/add-product`} component={AddProduct} />
+            <Route path={`/detail-order-success`} component={DetailOrderSuccess} />
+            <Route path={`/detail-order-fail`} component={DetailOrderFail} />
             <Route path={`/page-notification`} component={PageNotification} />
+            <Route path={`/success-order`} component={SuccessOrder} />
+            <Route path={`/cancel-order`} component={CancelOrder} />
+            <Route path={`/pending-order`} component={PendingOrder} />
+            <Route path={`/ready-market`} component={ReadyMarket} />
+            <Route path={`/ready-product`} component={ReadyProduct} />
+            <Route path={`/order-buy-success`} component={OrderBuySuccess} />
 
             <Route path={`/dashboard`} component={Dashboard} />
           

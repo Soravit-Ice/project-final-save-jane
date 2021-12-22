@@ -121,7 +121,7 @@ class Login extends React.Component {
                               <span className="icon-lock text-muted icon-input" />
                               </div>        
                             </Form.Group>
-                            <div className='error'>{this.state.loginFail}</div>
+                            <span className='error'>{this.state.loginFail}</span>
                             <input type="submit" value='เข้าสู่ระบบ' className="btn btn-block box-shadow buttonlogin"/>
 
                             </Form>

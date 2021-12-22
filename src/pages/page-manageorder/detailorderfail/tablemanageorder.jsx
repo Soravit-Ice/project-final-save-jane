@@ -4,9 +4,8 @@ import { toast } from 'react-toastify';
 import DataTable from 'react-data-table-component'
 import {tableData} from './tabledata'
 import { Row,Col,Card , Form , Button , Badge} from 'react-bootstrap';
-import logoNoData from './images/logo_manage_order.png'
 
-const DataTables = () =>  {
+const DataTablesDetail = () =>  {
 
   const [selectedRows, setSelectedRows] = useState([]);
   const [toggleCleared, setToggleCleared] = useState(false);
@@ -14,38 +13,38 @@ const DataTables = () =>  {
 
  const tableColumns = [
     {
-        name: 'เลขออเดอร์',
+        name: 'No',
         selector: 'id', 
         sortable: true,
         center:true,
     },
     {
-        name: 'ผู้ซื้อ',
-        selector: 'name',
+        name: 'สินค้า',
+        selector: 'product',
         sortable: true,
         center:true,
     },
     {
-        name: 'วันที่สั่งซื้อ',
-        selector: 'creat_buy',
+        name: 'ชื่อสินค้า',
+        selector: 'nameproduct',
         sortable: true,
         center:true,
     },
     {
-        name: 'วันที่ได้รับสินค้า',
-        selector: 'creat_on',
-        sortable: true,
-        center:true,
-    },
-    {
-        name: 'สถานะ',
-        selector: 'status',
-        sortable: true,
-        center:true,
-    },
-    {
-        name: 'ราคา',
+        name: 'ราคาสินค้า',
         selector: 'price',
+        sortable: true,
+        center:true,
+    },
+    {
+        name: 'จำนวน',
+        selector: 'quantity',
+        sortable: true,
+        center:true,
+    },
+    {
+        name: 'ราคารวม',
+        selector: 'priceall',
         sortable: true,
         center:true,
     }
@@ -74,39 +73,40 @@ const DataTables = () =>  {
             <Row>
                     <Col sm="12">
                         <Card>
-                            <Card.Header>
-                            <div className='headerform'>
-                            <div className="search-form1">
-                            <Form>
-                                <Form.Control type="search" placeholder="ค้นหารายการ" id="placeholder"/>
-                                <Button type="submit" variant="link" className="btn-search">
-                                    <i className="fa fa-search"></i>
-                                </Button>
-                            </Form>
-                            </div>
-                            <div className='buttonheader'>
-                            <a className='buttontable' href="#be"><i className="far fa-filter"></i>กรองข้อมูล</a>
-                            <a className='buttontable' href="#be"><i className="fal fa-arrow-to-top"></i>อัพโหลด</a>
-                            <a className='buttontable' href="#be"><i className="fal fa-arrow-to-bottom"></i>ดาวน์โหลด</a>
-                                
-                               
-                            </div>
-                            </div>
-                            </Card.Header>
                             <Card.Body>
                               <DataTable
                                 data={data}
                                 columns={tableColumns}
                                 striped={true}
                                 center={true}
-                                selectableRows
                                 persistTableHead
                                 contextActions={contextActions}
                                 onSelectedRowsChange={handleRowSelected}
                                 clearSelectedRows={toggleCleared}
-                                noDataComponent = {<img src={logoNoData} style={{"padding": "100px"}}></img>}
                               />
-                            
+                            <div className='summaryproduct'>
+                              <div className='content-summaryproduct'>
+                              <p>ราคา</p>
+                              <p>420</p>
+                              </div>
+                              <div className='content-summaryproduct'>
+                              <p>ส่วนลด</p>
+                              <p>100</p>
+                              </div>
+                              <div className='content-summaryproduct'>
+                              <p>ภาษี</p>
+                              <p>20</p>
+                              </div>
+                              <div className='content-summaryproduct'>
+                              <p>ค่าส่ง</p>
+                              <p>60</p>
+                              </div>
+                              <hr />
+                              <div className='content-summaryproduct'>
+                              <p>ราคารวม</p>
+                              <p>400</p>
+                            </div>
+                            </div>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -116,4 +116,4 @@ const DataTables = () =>  {
 
 };
 
-export default DataTables;
+export default DataTablesDetail;

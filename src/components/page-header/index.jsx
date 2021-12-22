@@ -20,7 +20,21 @@ const PageHeader = ()  => {
        }else if (last_path === "manage-market"){
         last_path = "การจัดการร้านค้า"
        }else if (last_path === "manage-order"){
-        last_path = "การจัดการออเดอร์"
+        last_path = "การจัดการคำสั่งซื้อ"
+       }else if(last_path === "detail-order-success" || last_path === "/detail-order-fail"){
+        last_path = "รายละเอียดคำสั่งซื้อ"
+       }else if(last_path === "ready-product"){
+        last_path = "คำสั่งซื้อเสร็จสิ้น"
+       }else if(last_path === "ready-market"){
+        last_path = "ร้านค้าเตรียมสินค้า"
+       }else if(last_path === "order-buy-success"){
+        last_path = "เตรียมสินค้าเสร็จสิ้น"
+       }else if(last_path === "pending-order"){
+        last_path = "สินค้าอยู่ระหว่างจัดส่ง"
+       }else if(last_path === "success-order"){
+        last_path = "จัดส่งสำเร็จ"
+       }else if(last_path === "cancel-order"){
+        last_path = "ยกเลิกการจัดส่ง"
        }
     }
 

@@ -4,7 +4,7 @@ import { toast } from 'react-toastify';
 import DataTable from 'react-data-table-component'
 import {tableData} from './tabledata'
 import { Row,Col,Card , Form , Button , Badge} from 'react-bootstrap';
-import logoNoData from './images/logo_manage_order.png'
+import logoNoData from '../images/logo_manage_order.png'
 
 const DataTables = () =>  {
 
@@ -99,7 +99,6 @@ const DataTables = () =>  {
                                 columns={tableColumns}
                                 striped={true}
                                 center={true}
-                                selectableRows
                                 persistTableHead
                                 contextActions={contextActions}
                                 onSelectedRowsChange={handleRowSelected}

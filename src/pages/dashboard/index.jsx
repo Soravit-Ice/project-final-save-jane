@@ -83,7 +83,7 @@ var cardstyle3 = {
 }
 
 var cardstyle4 = {
-    height: '1000px'
+    height: '1100px'
 }
 const options = {
 tooltips: {
@@ -364,9 +364,9 @@ class Dashboard extends React.Component {
                                 <h3>เลขออเดอร์ MF-254865</h3>
                                 </div>
                                 <div>
-                                <span><i className="fas fa-map-marker-alt location"  id = "location1"/>sdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdf</span>
+                                <span><i className="fas fa-map-marker-alt location"  id = "location1"/>44/3 หมู่ 3 ตำบลบึงคำพร้อย อำเภอลำลูกกา จังหวัดปทุมธานี 12130</span>
                                 </div>
-                                <span><i className="fas fa-map-marker-alt location" id = "location2" />sdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdf</span>
+                                <span><i className="fas fa-map-marker-alt location" id = "location2" />1 หมู่ 5 ถ.แจ้งวัฒนะ ต.ปากเกร็ด อ.ปากเกร็ด จ.นนทบุรี 11120</span>
                             </div>
                         </div>
                             </Card.Body>
@@ -386,9 +386,9 @@ class Dashboard extends React.Component {
                                 <h3>เลขออเดอร์ MF-254865</h3>
                                 </div>
                                 <div>
-                                <span><i className="fas fa-map-marker-alt location"  id = "location1"/>sdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdf</span>
+                                <span><i className="fas fa-map-marker-alt location"  id = "location1"/>1871 ถนนอังรีดูนังต์ เขตปทุมวัน กรุงเทพ 10330</span>
                                 </div>
-                                <span><i className="fas fa-map-marker-alt location" id = "location2" />sdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdf</span>
+                                <span><i className="fas fa-map-marker-alt location" id = "location2" />189 ถนนลาดพร้าว แขวงคลองจั่น เขตบางกะปิ กรุงเทพมหานคร 10240</span>
                             </div>
                         </div>
                             </Card.Body>
@@ -409,9 +409,9 @@ class Dashboard extends React.Component {
                                 <h3>เลขออเดอร์ MF-254865</h3>
                                 </div>
                                 <div>
-                                <span><i className="fas fa-map-marker-alt location"  id = "location1"/>sdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdf</span>
+                                <span><i className="fas fa-map-marker-alt location"  id = "location1"/> 1/3 ซอยรัตนาธิเบศร์ 6 ถนนรัตนาธิเบศร์ ตำบลบางกระสอ อำเภอเมืองนนทบุรี จังหวัดนนทบุรี 11000,</span>
                                 </div>
-                                <span><i className="fas fa-map-marker-alt location" id = "location2" />sdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdf</span>
+                                <span><i className="fas fa-map-marker-alt location" id = "location2" />151 ถนนรังสิต-ปทุมธานี ตำบลประชาธิปัตย์ อำเภอธัญบุรี จังหวัดปทุมธานี 12130</span>
                             </div>
                         </div>
                             </Card.Body>

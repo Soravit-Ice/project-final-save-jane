@@ -2,8 +2,8 @@ import React from 'react';
 import "./index.scss";
 import { Link } from 'react-router-dom';
 import DataTables from './tablemanageorder';
-import HeaderPageManageorder from './header';
-class ManageOrder extends React.Component {
+import HeaderPageManageorder from '../header';
+class PendingOrder extends React.Component {
 
     render() {
         return (
@@ -11,7 +11,7 @@ class ManageOrder extends React.Component {
                 <div class = "header-page1">
                     <h2>การจัดการคำสั่งซื้อ</h2>
                 </div>
-                <HeaderPageManageorder/>
+               <HeaderPageManageorder/>
                 <DataTables/>
             </React.Fragment>
         );
@@ -19,4 +19,4 @@ class ManageOrder extends React.Component {
 }
 
 
-export default ManageOrder;
+export default PendingOrder;
